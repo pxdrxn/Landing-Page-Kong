@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KONG Suplementos</title>
+    <title>Elite Supps</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +15,7 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="bg-black text-white font-sans">
@@ -23,7 +24,8 @@
         class="relative min-h-screen flex flex-col items-center justify-center text-center text-white overflow-hidden">
 
 
-        <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
+        <video autoplay muted loop playsinline data-aos="fade" data-aos-duration="1000"
+            class="absolute top-0 left-0 w-full h-full object-cover z-0">
             <source src="456552_Fitness_Gym_1280x720.mp4" type="video/mp4">
             Seu navegador não suporta vídeos em HTML5.
         </video>
@@ -33,12 +35,16 @@
 
 
         <div class="relative z-20 px-4 mb-[200px]">
-            <img src="png.png" alt="KONG Logo" class="w-32 mb-4 mx-auto">
-            <h1 class="font-anton text-5xl sm:text-5xl lg:text-6xl md:text-5xl text-green-500 font-bold">KONG
-                SUPLEMENTOS</h1>
-            <p class="font-poppins mt-2 text-lg text-gray-300">Sua evolução começa aqui.</p>
-            <p class="lg:text-2xl font-poppins list-none mt-6 inline-block text-white font-bold text-center px-8">
-                Resultados reais começam com escolhas inteligentes. Na KONG, você encontra os melhores suplementos, com
+
+            <h1 data-aos="fade" data-aos-duration="2000"
+                class="font-anton text-6xl sm:text-5xl lg:text-8xl md:text-6xl text-green-500 font-bold">ELITE SUPPS
+            </h1>
+            <p data-aos="fade" data-aos-duration="2000" class="font-poppins mt-2 text-lg text-gray-300">Sua evolução
+                começa aqui.</p>
+            <p data-aos="fade" data-aos-duration="2000"
+                class="lg:text-2xl font-poppins list-none mt-6 inline-block text-white font-bold text-center px-8">
+                Resultados reais começam com escolhas inteligentes. Na Elite Supps, você encontra os melhores
+                suplementos, com
                 preços justos e qualidade garantida — porque seu corpo merece o melhor.
             </p>
         </div>
@@ -46,37 +52,38 @@
 
 
     <!-- Sobre -->
-    <section class="py-16 bg-black text-white">
-  <h2 class="text-center text-3xl sm:text-4xl font-bold text-green-500 mb-12 font-poppins">Quem somos</h2>
+    <section class="py-16 bg-black text-white min-h-screen">
+        <h2 data-aos="fade-up" class="text-center text-4xl sm:text-4xl font-bold text-green-500 mb-12 font-anton">Por
+            Trás da Força</h2>
 
-  <div class="flex flex-col lg:flex-row justify-center items-center gap-12 px-4">
-    
-    <!-- Card 1 -->
-    <div class="flex flex-col items-center text-center max-w-sm">
-      <img src="Captura de tela 2025-05-26 233933.png" alt="Imagem 1" class="rounded-2xl shadow-lg w-full mb-4">
-      <p class="underline decoration-green-500 text-white font-poppins text-base leading-relaxed">
-        Inspirando conquistas dentro<br>
-        e fora dos palcos, aqui a<br>
-        força é real.
-      </p>
-    </div>
+        <div class="flex flex-col lg:flex-row justify-center items-center gap-12 px-4">
 
-    <!-- Card 2 -->
-    <div class="flex flex-col items-center text-center max-w-sm">
-      <img src="foto2.png" alt="Imagem 2" class="rounded-2xl shadow-lg w-full mb-4">
-      <p class="underline decoration-green-500 text-white font-poppins text-base leading-relaxed">
-        Cada produto, uma escolha<br>
-        estratégica para sua evolução.
-      </p>
-    </div>
+            <!-- Card 1 -->
+            <div data-aos="fade-up"
+                class="flex flex-col items-center text-center max-w-sm transition-transform duration-300 hover:scale-105">
+                <img src="card1.jpeg" alt="Imagem 1" class="rounded-2xl shadow-lg w-96 mb-4">
+                <p class="underline decoration-green-500 text-white font-poppins text-base leading-relaxed">
+                    Força, foco e disciplina: o combustível da evolução.
+                </p>
+            </div>
 
-    <!-- Card 3 -->
-    <div class="flex flex-col items-center text-center max-w-sm">
-      <img src="foto3.png" alt="Imagem 3" class="rounded-2xl shadow-lg w-full mb-4">
-      <p class="underline decoration-green-500 text-white font-poppins text-base leading-relaxed"">
-        Mais do que uma loja,<br>
-        somos seu parceiro de<br>
-        resultados.
+            <!-- Card 2 -->
+            <div data-aos="fade-up"
+                class="flex flex-col items-center text-center max-w-sm transition-transform duration-300 hover:scale-105">
+                <img src="freepik__the-style-is-candid-image-photography-with-natural__20053.jpeg" alt="Imagem 2"
+                    class="rounded-2xl shadow-lg w-96 mb-4">
+                <p class="underline decoration-green-500 text-white font-poppins text-base leading-relaxed">
+                    Cada produto, uma escolha<br>
+                    estratégica para sua evolução.
+                </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div data-aos="fade-up"
+                class="flex flex-col items-center text-center max-w-sm transition-transform duration-300 hover:scale-105">
+                <img src="freepik__gym__27848.jpeg" alt="Imagem 3" class="rounded-2xl shadow-lg w-full mb-4">
+                <p class="underline decoration-green-500 text-white font-poppins text-base leading-relaxed"">
+        Sua transformação começa com atitude. E a gente caminha junto.
       </p>
     </div>
 
@@ -87,43 +94,44 @@
 
 
     <!-- Marketing -->
-    <section class="min-h-screen py-12 px-6 bg-gray-800">
-        <h2 class="text-2xl font-bold text-green-400 text-center mb-6">Por que devemos tomar suplementos?</h2>
-        <p class="text-gray-300 max-w-3xl mx-auto text-center">
-            Suplementos são aliados práticos para quem busca mais resultados em menos tempo — seja ganhar massa
-            muscular, melhorar a performance nos treinos ou garantir os nutrientes que o corpo precisa no dia a dia. Com
-            a correria da rotina, nem sempre conseguimos comer bem o tempo todo. É aí que a KONG Suplementos entra:
-            oferecemos produtos de qualidade, com preço justo e atendimento especializado, pra você atingir seus
-            objetivos com segurança e resultado.
-            Sua evolução começa aqui.
-        </p>
+    <section class=" min-h-screen py-12 px-6 bg-black">
+                <h2 data-aos="fade-up" class="font-anton text-4xl font-bold text-green-400 text-center mb-6">Por que devemos tomar suplementos?</h2>
+                <img data-aos="fade-up" src="137502141_10371060 (1).png" alt="" class="w-96">
+                <p data-aos="fade-up" class="underline decoration-green-500 text-white font-poppins text-base leading-relaxed max-w-3xl mx-auto text-center">
+                    Suplementos são aliados práticos para quem busca mais resultados em menos tempo — seja ganhar massa
+                    muscular, melhorar a performance nos treinos ou garantir os nutrientes que o corpo precisa no dia a
+                    dia. Com
+                    a correria da rotina, nem sempre conseguimos comer bem o tempo todo. É aí que a Elite Supps entra:
+                    oferecemos produtos de qualidade, com preço justo e atendimento especializado, pra você atingir seus
+                    objetivos com segurança e resultado.
+                    Sua evolução começa aqui.
+                </p>
     </section>
 
     <!-- Produtos -->
     <section class="min-h-screen py-12 px-6 bg-black">
-        <h2 class="text-2xl font-bold text-green-400 text-center mb-6">Produtos em Destaque</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <h2 data-aos="fade-up" class="text-2xl font-bold text-green-400 text-center mb-6">Produtos em Destaque</h2>
+        <div data-aos="fade-up" class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             <div class="bg-gray-800 rounded-lg p-4 shadow-lg">
                 <h3 class="text-xl mb-2 font-bold text-white">Creatina Shark Pro 300g</h3>
-                <img src="3FF7B654-0E5D-453F-893E-E29F9AFB950B.jpg" alt="Creatina Shark Pro"
-                    class="rounded-lg mb-2 mx-auto w-48 h-48 object-cover">
+                <img src="" alt="Creatina Shark Pro" class="rounded-lg mb-2 mx-auto w-48 h-48 object-cover">
                 <p class="text-green-500 mt-2 font-semibold text-center text-2xl">R$ 94,99</p>
             </div>
 
             <div class="bg-gray-800 rounded-lg p-4 shadow-lg">
                 <h3 class="text-xl mb-2 font-bold text-white">SyntheSize Whey NO2 907g</h3>
-                <img src="whey.jpg" alt="SyntheSize Whey NO2" class="rounded-lg mb-2 mx-auto w-48 h-48 object-cover">
+                <img src="" alt="SyntheSize Whey NO2" class="rounded-lg mb-2 mx-auto w-48 h-48 object-cover">
                 <p class="text-green-500 mt-2 font-semibold text-center text-2xl">R$ 104,99</p>
             </div>
 
             <div class="bg-gray-800 rounded-2xl p-4 shadow-lg">
                 <h3 class="text-xl mb-2 font-bold text-white">Pasta de Amendoim Dr Peanut</h3>
-                <img src="pasta.jpg" alt="Pasta de Amendoim" class="rounded-lg mb-2 mx-auto w-48 h-48 object-cover">
+                <img src="" alt="Pasta de Amendoim" class="rounded-lg mb-2 mx-auto w-48 h-48 object-cover">
                 <p class="text-green-500 mt-2 font-semibold text-center text-2xl">R$ 65,00</p>
             </div>
         </div>
-        <div class="mt-10 flex justify-center">
-            <a href="https://kong-suplementos.kyte.site/pt-BR" target="_blank"
+        <div data-aos="fade-up" class="mt-10 flex justify-center">
+            <a href="#" target="_blank"
                 class="bg-black border border-green-500 text-green-500 hover:bg-green-600 hover:text-white font-bold py-3 px-8 rounded-lg transition duration-300 ease-in-out text-center">
                 Compre Online
             </a>
@@ -131,19 +139,31 @@
     </section>
 
     <!-- Localização -->
-    <section class="py-12 px-6 bg-gray-900">
+    <section data-aos="fade-up" class="py-12 px-6 bg-gray-900">
         <h2 class="text-2xl font-bold text-green-400 text-center mb-6">Visite a Loja</h2>
         <div class="max-w-3xl mx-auto">
             <iframe class="w-full h-64 rounded-lg"
-                src="https://www.google.com/maps?q=Avenida+Afonso+Olin+1041,+Recife&output=embed" frameborder="0"
+                src="https://www.google.com/maps?q=Central+Park,+New+York,+NY,+USA&output=embed" frameborder="0"
                 allowfullscreen></iframe>
         </div>
     </section>
 
+
     <!-- Footer -->
     <footer class="text-center py-6 bg-black text-gray-500 text-sm">
-        &copy; 2023 KONG Suplementos. Todos os direitos reservados.
+        &copy; 2023 Elite Supps. Todos os direitos reservados.
     </footer>
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
